@@ -1,7 +1,7 @@
 # SQL HW_1  
 #### Первая часть.  
 
-#### Таблица **employees**  
+### Таблица **employees**  
 
 1. Создать таблицу **employees**  
 - id. serial,  primary key,  
