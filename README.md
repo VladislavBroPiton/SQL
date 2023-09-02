@@ -28,9 +28,9 @@
 - 2300  
 - 2400  
 - 2500  
-Таблица **employee_salary**
-5. Создать таблицу **employee_salary**
-- id. Serial  primary key,
-- employee_id. Int, not null, unique
-- salary_id. Int, not null
+Таблица **employee_salary**  
+5. Создать таблицу **employee_salary**  
+- id. Serial  primary key,  
+- employee_id. Int, not null, unique  
+- salary_id. Int, not null  
 
