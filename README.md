@@ -49,3 +49,7 @@ id | employee_id | salary_id
 9|26|4|
 10|16|1|
 11|33|7|
+Таблица **roles**  
+7. Создать таблицу **roles**    
+- id. Serial  primary key,  
+- role_name. int, not null, unique  
