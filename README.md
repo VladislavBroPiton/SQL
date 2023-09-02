@@ -33,4 +33,5 @@
 - id. Serial  primary key,  
 - employee_id. Int, not null, unique  
 - salary_id. Int, not null  
-
+6. Наполнить таблицу **employee_salary** 40 строками:  
+- в 10 строк из 40 вставить несуществующие **employee_id**  
