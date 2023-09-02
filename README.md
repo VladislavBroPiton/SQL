@@ -35,6 +35,6 @@
 - salary_id. Int, not null  
 6. Наполнить таблицу **employee_salary** 40 строками:  
 - в 10 строк из 40 вставить несуществующие **employee_id**  
-id | employee_id | salary_id 
-:--|:-----------:|---------:
-1  |    3        |    7   |
+id | employee_id | salary_id   
+:--|:-----------:|---------:  
+1  |    3        |    7   |  
