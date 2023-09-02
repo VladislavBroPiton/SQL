@@ -8,8 +8,8 @@
 - employee_name. Varchar(50), not null  
 2. Наполнить таблицу **employees** 70 строками.  
 ### Таблица **salary**
-3. Создать таблицу **salary**
-- id. Serial  primary key,
-- monthly_salary. Int, not null
+3. Создать таблицу **salary**  
+- id. Serial  primary key,    
+- monthly_salary. Int, not null  
 
 
