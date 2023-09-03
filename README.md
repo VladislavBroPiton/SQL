@@ -52,4 +52,7 @@ id | employee_id | salary_id
 Таблица **roles**  
 7. Создать таблицу **roles**    
 - id. Serial  primary key,  
-- role_name. int, not null, unique  
+- role_name. int, not null, unique
+6. Поменять тип столба **role_name с int на varchar(30)**    
+7. Наполнить таблицу **roles** 20 строками:  
+
