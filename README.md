@@ -77,6 +77,8 @@ id | role_name
 17 | Sales manager
 18 | Junior Automation QA engineer
 19 | Middle Automation QA engineer
-20 | Senior Automation QA engineer
+20 | Senior Automation QA engineer  
+
+Таблица **roles_employee**  
 
 
