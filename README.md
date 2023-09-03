@@ -56,6 +56,6 @@ id | employee_id | salary_id
 8. Поменять тип столба **role_name с int на varchar(30)**    
 9. Наполнить таблицу **roles** 20 строками:  
 
-id | role_name |    
+id | role_name       
 :--|---------:   
-1  | Junior Python developer |     
+1  | Junior Python developer      
