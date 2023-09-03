@@ -58,4 +58,25 @@ id | employee_id | salary_id
 
 id | role_name       
 :--|---------:   
-1  | Junior Python developer      
+1  | Junior Python developer    
+2 | Middle Python developer
+3 | Senior Python developer
+4 | Junior Java developer
+5 | Middle Java developer
+6 | Senior Java developer
+7 | Junior JavaScript developer
+8 | Middle JavaScript developer
+9 | Senior JavaScript developer
+10 | Junior Manual QA engineer
+11 | Middle Manual QA engineer
+12 | Senior Manual QA engineer
+13 | Project Manager
+14 | Designer
+15 | HR
+16 | CEO
+17 | Sales manager
+18 | Junior Automation QA engineer
+19 | Middle Automation QA engineer
+20 | Senior Automation QA engineer
+
+
