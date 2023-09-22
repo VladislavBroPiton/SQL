@@ -44,3 +44,4 @@ id INT NOT NULL - id (числовое) не может иметь пустое 
 id INT NOT NULL AUTO_INCREMENT - id (числовое) не может иметь пустое значение и каждый раз увеличивает это поле на еденицу, при добавлении новой записи автоматически    
 PRIMARY KEY(id) будет уникальное и не будет повторяться    
 ALTER TABLE people ADD pass VARCHAR(32) - добавление нового поля к таблице people
+ALTER TABLE people DROP COLUMN pass -  удалить из таблицы people поле pass 
