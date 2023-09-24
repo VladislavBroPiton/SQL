@@ -46,3 +46,4 @@ PRIMARY KEY(id) будет уникальное и не будет повтор�
 ALTER TABLE people ADD pass VARCHAR(32) - добавление нового поля pass к таблице people   
 ALTER TABLE people DROP COLUMN pass -  удалить из таблицы people поле pass 
 AUTO_INCREMENT - каждое последующее число увеличивается на 1   
+INSERT INTO people (name, bio, birth, email) VALUES ('Влад','Тестировщик','2000-01-01','test@mail.ru')   
