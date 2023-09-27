@@ -31,6 +31,7 @@ VALUES
 (Галя)  
 (Елена)  
 
+
 CREATE TABLE salary  
 (    
 id SERIAL PRIMARY KEY,     
