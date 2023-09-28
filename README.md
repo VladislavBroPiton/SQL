@@ -52,4 +52,4 @@ NoSQL **резидентная** СУБД, которая использует �
 **ALTER TABLE people DROP COLUMN pass** -  удалить из таблицы people поле pass    
 **INSERT INTO people (name, bio, birth, email) VALUES ('Влад','Тестировщик','2000-01-01','test@mail.ru')**   Добавление новой записи в таблицу people в поля (name,bio,birth,email) значения (Влад...)   
 **ALTER TABLE people CHANGE birth birth DATE NOT NULL** - поменял в табл. people значение birth без изменения названия birth поэтому написал два раза и поменял на DATE NOT NULL  
-CREATE DATA 
+CREATE 
