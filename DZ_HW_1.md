@@ -63,3 +63,7 @@ id SERIAL PRIMARY KEY,
 employee_id INT NOT NULL UNIQUE,
 salary_id INT NOT NULL
 );
+
+INSERT INTO employee_salary (employee_id, salary_id) 
+VALUES
+('',''),
