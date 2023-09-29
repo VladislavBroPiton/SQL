@@ -51,8 +51,9 @@ ______
 **id INT NOT NULL AUTO_INCREMENT** - id (числовое) не может иметь пустое значение и каждый раз увеличивает это поле на еденицу, при добавлении новой записи автоматически    
 **PRIMARY KEY(id)** будет уникальное и не будет повторяться    
 **ALTER TABLE people ADD pass VARCHAR(32)** - добавление нового поля pass к таблице people   
-**UPDATE name1 SET name = 'Vlad' WHERE id=5;   
+   
 **ALTER TABLE people DROP COLUMN pass** -  удалить из таблицы people поле pass    
 **INSERT INTO people (name, bio, birth, email) VALUES ('Влад','Тестировщик','2000-01-01','test@mail.ru')**   Добавление новой записи в таблицу people в поля (name,bio,birth,email) значения (Влад...)   
 **ALTER TABLE people CHANGE birth birth DATE NOT NULL** - поменял в табл. people значение birth без изменения названия birth поэтому написал два раза и поменял на DATE NOT NULL  
 
+**UPDATE name1 SET name = 'Vlad' WHERE id=5;**  - обновление табл. name1 для поля name в id=5  
