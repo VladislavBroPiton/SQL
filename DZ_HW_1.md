@@ -32,11 +32,11 @@ VALUES
 (Елена)  
 
 _______________________________________________________
-CREATE TABLE salary  
+CREATE TABLE salary    
 (    
-id SERIAL PRIMARY KEY,     
-monthly_salary INT NOT NULL    
-);     
+id SERIAL PRIMARY KEY,       
+monthly_salary INT NOT NULL      
+);       
 
 INSERT INTO salary (monthly_salary)  
 VALUES  
