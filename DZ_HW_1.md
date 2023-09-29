@@ -126,5 +126,6 @@ _____
 
 CREATE TABLE roles_employee (  
 id SERIAL PRIMARY KEY,  
-employee_id INT NOT NULL UNIQUE  
+employee_id INT NOT NULL UNIQUE,  
+role_id INT NOT NULL  
 );  
