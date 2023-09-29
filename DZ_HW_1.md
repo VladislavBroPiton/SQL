@@ -57,3 +57,9 @@ VALUES
 (2400)  
 (2500)  
 ____
+CREATE TABLE employee_salary 
+(
+id SERIAL PRIMARY KEY,
+employee_id INT NOT NULL UNIQUE,
+salary_id INT NOT NULL
+);
