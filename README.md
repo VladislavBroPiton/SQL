@@ -57,4 +57,4 @@ ______
 **ALTER TABLE people CHANGE birth birth DATE NOT NULL** - поменял в табл. people значение birth без изменения названия birth поэтому написал два раза и поменял на DATE NOT NULL  
 
 **UPDATE name1 SET name = 'Vlad' WHERE id=5;**  - обновление табл. name1 для поля name в id=5  
-**UPDATE name1 SET name = 'Vlad', email = 'Vlad@mail.ru' WHERE name = 'Vlad1';**    
+**UPDATE name1 SET name = 'Vlad', email = 'Vlad@mail.ru' WHERE name = 'Vlad1';**   - будет изменено поле name и email, где в поле присутствует имя Vlad1   
