@@ -66,8 +66,8 @@ salary_id INT NOT NULL
 
 INSERT INTO employee_salary (employee_id, salary_id) 
 VALUES
-('',''),  
-('',''),  
+('3','7'),  
+('1','4'),  
 ('',''),  
 ('',''),  
 ('',''),  
