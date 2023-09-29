@@ -115,3 +115,7 @@ role_name INT NOT NULL UNIQUE
 );  
 
 ALTER TABLE roles CHANGE role_name role_name VARCHAR(30) NOT NULL UNIQUE  
+
+INSERT INTO roles (role_name)  
+VALUES  
+('Junior Python developer'),
