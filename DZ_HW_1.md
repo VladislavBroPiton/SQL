@@ -57,6 +57,7 @@ VALUES
 (2400)  
 (2500)  
 ____
+
 CREATE TABLE employee_salary   
 (  
 id SERIAL PRIMARY KEY,  
@@ -109,6 +110,7 @@ VALUES
 ('',''),  
 
 ________
+
 CREATE TABLE roles (  
 id SERIAL PRIMARY KEY,  
 role_name INT NOT NULL UNIQUE  
@@ -121,3 +123,8 @@ VALUES
 ('Junior Python developer'),
 
 _____
+
+CREATE TABLE roles_employee (  
+id SERIAL PRIMARY KEY,  
+employee_id INT NOT NULL UNIQUE  
+);  
