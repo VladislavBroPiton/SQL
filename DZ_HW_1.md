@@ -109,3 +109,7 @@ VALUES
 ('',''),  
 
 ________
+CREATE TABLE roles (  
+id SERIAL PRIMARY KEY,  
+role_name INT NOT NULL UNIQUE  
+);  
