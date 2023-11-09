@@ -85,7 +85,7 @@ VALUES
 ('15','13'),  
 ('26','4'), 
 ________
-
+  
 CREATE TABLE roles (  
 id SERIAL PRIMARY KEY,  
 role_name INT NOT NULL UNIQUE  
