@@ -11,7 +11,7 @@
 3. Создать таблицу **salary**  
 - id. Serial  primary key,    
 - monthly_salary. Int, not null  
-4. Наполнить таблицу salary 15 строками:  
+4. Наполнить таблицу salary 15 строками:    
 - 1000  
 - 1100  
 - 1200  
