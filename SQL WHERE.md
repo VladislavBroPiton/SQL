@@ -43,3 +43,6 @@ WHERE Price BETWEEN 50 AND 60;
 ```
 #### 8. **``LIKE``**
 ```
+SELECT * FROM Customers
+WHERE City LIKE 's%';
+```
