@@ -17,3 +17,7 @@ SELECT * FROM Products
 WHERE Price > 30;
 ```
 #### 3. **``<``**
+```
+SELECT * FROM Products
+WHERE Price < 30;
+```
