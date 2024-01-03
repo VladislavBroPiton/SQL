@@ -48,3 +48,6 @@ WHERE City LIKE 's%';
 ```
 #### 9. **``IN``**
 ```
+SELECT * FROM Customers
+WHERE City IN ('Paris','London');
+```
