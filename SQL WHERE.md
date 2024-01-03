@@ -37,3 +37,7 @@ SELECT * FROM Products
 WHERE Price <> 18;
 ```
 #### 7. **``BETWEEN``**
+```
+SELECT * FROM Products
+WHERE Price BETWEEN 50 AND 60;
+```
