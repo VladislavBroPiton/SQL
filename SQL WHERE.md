@@ -7,5 +7,7 @@ WHERE Country='Mexico';
 
 The following operators can be used in the WHERE clause:  
 ``=``    
+```
 SELECT * FROM Products  
 WHERE Price = 18;  
+```
