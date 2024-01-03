@@ -51,3 +51,9 @@ WHERE City LIKE 's%';
 SELECT * FROM Customers
 WHERE City IN ('Paris','London');
 ```
+
+## Select all records where the City column has the value "Berlin".
+```
+SELECT * FROM Customers
+WHERE City = 'Berlin';
+```
