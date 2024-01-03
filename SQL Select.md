@@ -1,1 +1,2 @@
-### 1. Insert the missing statement to get all the columns from the Customers table.
+### 1. Insert the missing statement to get all the columns from the Customers table.  
+SELECT * FROM Customers;  
