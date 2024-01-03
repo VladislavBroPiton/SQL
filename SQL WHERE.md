@@ -62,3 +62,4 @@ WHERE City = 'Berlin';
 SELECT * FROM Customers
 WHERE NOT City = 'Berlin';
 ```
+## Select all records where the CustomerID column has the value 32.
