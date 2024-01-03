@@ -67,3 +67,4 @@ WHERE NOT City = 'Berlin';
 SELECT * FROM Customers
 WHERE CustomerID = 32;
 ```
+## Select all records where the City column has the value 'Berlin' and the PostalCode column has the value '12209'.
