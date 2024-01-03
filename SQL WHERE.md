@@ -41,3 +41,5 @@ WHERE Price <> 18;
 SELECT * FROM Products
 WHERE Price BETWEEN 50 AND 60;
 ```
+#### 8. **``LIKE``**
+```
