@@ -4,3 +4,5 @@ The ORDER BY keyword is used to sort the result-set in ascending or descending o
 SELECT * FROM Customers
 ORDER BY  City;
 ```
+### 2. Select all records from the Customers table, sort the result reversed alphabetically by the column City.
+
