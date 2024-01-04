@@ -1,2 +1,2 @@
-Update the City column of all records in the Customers table.
+### 1. Update the City column of all records in the Customers table.
 
