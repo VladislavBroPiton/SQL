@@ -3,3 +3,7 @@
 DELETE FROM Customers
 WHERE Country = 'Norway';
 ```
+### 2. Delete all the records from the Customers table.
+```
+DELETE FROM Customers;
+```
