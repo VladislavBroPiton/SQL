@@ -5,3 +5,5 @@ The MAX() function returns the largest value of the selected column.
 SELECT MIN(Price)
 FROM Products;
 ```
+### 2. Use an SQL function to select the record with the highest value of the Price column.
+
