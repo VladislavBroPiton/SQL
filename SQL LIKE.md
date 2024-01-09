@@ -10,3 +10,5 @@ There are two wildcards often used in conjunction with the LIKE operator:
 SELECT * FROM Customers
 WHERE City LIKE 'a%';
 ```
+### 2. Select all records where the value of the City column ends with the letter "a".
+
