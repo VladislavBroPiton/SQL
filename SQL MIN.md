@@ -16,3 +16,5 @@ SELECT COUNT(*)
 FROM Products
 WHERE Price = 18;
 ```
+### 4. Use an SQL function to calculate the average price of all products.
+
