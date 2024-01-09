@@ -21,3 +21,5 @@ WHERE Price = 18;
 SELECT AVG(Price)
 FROM Products;
 ```
+### 5. Use an SQL function to calculate the sum of all the Price column values in the Products table.
+
