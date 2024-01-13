@@ -1,1 +1,3 @@
-### 1.
+### 1. Use the IN operator to select all the records where Country is either "Norway" or "France".
+
+
