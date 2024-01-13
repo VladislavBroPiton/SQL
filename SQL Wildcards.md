@@ -8,3 +8,5 @@ WHERE City LIKE '_a%';
 SELECT * FROM Customers
 WHERE City LIKE '[acs]%';
 ```
+### 3. Select all records where the first letter of the City starts with anything from an "a" to an "f".
+
