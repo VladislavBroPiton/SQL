@@ -7,3 +7,4 @@ WHERE Country = 'Norway';
 ```
 DELETE FROM Customers;
 ```
+  
