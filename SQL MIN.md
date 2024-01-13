@@ -26,3 +26,4 @@ FROM Products;
 SELECT SUM(Price)
 FROM Products;
 ```
+
