@@ -15,3 +15,4 @@ WHERE City LIKE 'a%';
 SELECT * FROM Customers
 WHERE City LIKE '%a';
 ```
+ 
