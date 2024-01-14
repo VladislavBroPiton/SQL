@@ -5,3 +5,5 @@ The BETWEEN operator is inclusive: begin and end values are included.
 SELECT * FROM Products
 WHERE Price BETWEEN 10 AND 20;
 ```
+### 2. Use the BETWEEN operator to select all the records where the value of the Price column is NOT between 10 and 20.
+
