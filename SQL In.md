@@ -6,5 +6,5 @@ WHERE Country IN ('Norway', 'France');
 ### 2. Use the IN operator to select all the records where Country is NOT "Norway" and NOT "France".
 ```
 SELECT * FROM Customers
-WHERE Country IN NOT ('Norway', 'France');
+WHERE Country NOT IN ('Norway', 'France');
 ```
