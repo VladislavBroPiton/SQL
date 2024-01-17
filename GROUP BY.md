@@ -1,5 +1,5 @@
-The RIGHT JOIN keyword returns all records from the right table (table2), and the matching records from the left table (table1). The result is 0 records from the left side, if there is no match.
-### 1. List the number of customers in each country.
+The GROUP BY statement groups rows that have the same values into summary rows, like "find the number of customers in each country".
+The GROUP BY statement is often used with aggregate functions (COUNT(), MAX(), MIN(), SUM(), AVG()) to group the result-set by one or more columns.### 1. List the number of customers in each country.
 ```
 SELECT COUNT (CustomerID),
 Country
