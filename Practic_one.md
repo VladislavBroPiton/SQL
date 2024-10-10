@@ -12,3 +12,7 @@ CREATE TABLE users (
 Этот запрос создаёт таблицу users с тремя столбцами: `id`, `name` и `email`
 
 ### 2. Вставка данных
+```
+INSERT INTO users (id, name, email) VALUES (1, 'Иван', 'ivan@example.com');
+INSERT INTO users (id, name, email) VALUES (2, 'Мария', 'maria@example.com');
+```
