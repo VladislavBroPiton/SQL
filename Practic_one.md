@@ -9,3 +9,4 @@ CREATE TABLE users (
     email VARCHAR(100)
 );
 ```
+Этот запрос создаёт таблицу users с тремя столбцами: `id`, `name` и `email`
