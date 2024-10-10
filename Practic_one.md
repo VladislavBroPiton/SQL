@@ -17,3 +17,5 @@ INSERT INTO users (id, name, email) VALUES (1, 'Иван', 'ivan@example.com');
 INSERT INTO users (id, name, email) VALUES (2, 'Мария', 'maria@example.com');
 ```
 Эти запросы добавляют два новых пользователя в таблицу `users`.
+
+### 3. Выборка данных
