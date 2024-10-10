@@ -22,3 +22,4 @@ INSERT INTO users (id, name, email) VALUES (2, 'Мария', 'maria@example.com'
 ```
 SELECT * FROM users;
 ```
+Этот запрос извлекает все данные из таблицы `users`.
