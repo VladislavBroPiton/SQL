@@ -33,7 +33,9 @@ SELECT name FROM users WHERE id = 1;
 UPDATE users SET email = 'ivan_new@example.com' WHERE id = 1;
 ```
 Этот запрос обновляет адрес электронной почты пользователя с `id = 1`.
-
+Этот запрос удаляет пользователя с `id = 2` из таблицы users.
+Пример использования
+Предположим, что в таблице users у нас следующие данные:
 ### 5. Удаление данных
 ```
 DELETE FROM users WHERE id = 2;
