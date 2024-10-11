@@ -41,3 +41,6 @@ DELETE FROM users WHERE id = 2;
 Этот запрос удаляет пользователя с `id = 2` из таблицы users.
 Пример использования
 Предположим, что в таблице users у нас следующие данные:
+id	name	email
+1	Иван	mailto:ivan@example.com
+2	Мария	mailto:maria@example.com
