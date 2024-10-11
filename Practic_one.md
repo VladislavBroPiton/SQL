@@ -29,3 +29,6 @@ SELECT name FROM users WHERE id = 1;
 Этот запрос извлекает имя пользователя с `id = 1`.
 
 ### 4. Обновление данных
+```
+UPDATE users SET email = 'ivan_new@example.com' WHERE id = 1;
+```
