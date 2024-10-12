@@ -60,6 +60,7 @@ ______
 **CREATE TABLE** - создание таблицы  
 **AUTO_INCREMENT** - оператор, увеличивает значение поля на +1  
 **id SERIAL** - уникальный не повторяющийся, значения поля на +1   
+**SELECT** ('столбцы или * для выбора всех столбцов; обязательно')
 
 **id INT NOT NULL** - id (числовое) не может иметь пустое значение   
 **id INT NOT NULL AUTO_INCREMENT** - id (числовое) не может иметь пустое значение и каждый раз увеличивает это поле на еденицу, при добавлении новой записи автоматически    
@@ -69,7 +70,6 @@ ______
 **ALTER TABLE people DROP COLUMN pass** -  удалить из таблицы people поле pass    
 **INSERT INTO people (name, bio, birth, email) VALUES ('Влад','Тестировщик','2000-01-01','test@mail.ru')**   Добавление новой записи в таблицу people в поля (name,bio,birth,email) значения (Влад...)   
 **ALTER TABLE people CHANGE birth birth DATE NOT NULL** - поменял в табл. people значение birth без изменения названия birth поэтому написал два раза и поменял на DATE NOT NULL  
-
 **UPDATE name1 SET name = 'Vlad' WHERE id=5;**  - обновление табл. name1 для поля name в id=5  
 **UPDATE name1 SET name = 'Vlad', email = 'Vlad@mail.ru' WHERE name = 'Vlad1';**   - будет изменено поле name и email, где в поле присутствует имя Vlad1      
 **UPDATE name1 SET name = 'Vlad', bio = 'tester' WHERE id > 4;**    -  будет изменено поле name и bio, где id>4   
