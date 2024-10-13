@@ -43,5 +43,5 @@ DELETE FROM users WHERE id = 2;
 Предположим, что в таблице users у нас следующие данные:
 id | name |	email
 :--| -- | --:
-1	Иван	mailto:ivan@example.com
-2	Мария	mailto:maria@example.com
+1 |	Иван |	mailto:ivan@example.com
+2 |	Мария |	mailto:maria@example.com
