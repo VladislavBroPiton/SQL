@@ -45,3 +45,7 @@ id | name |	email
 :--| -- | --:
 1 |	Иван |	mailto:ivan@example.com
 2 |	Мария |	mailto:maria@example.com
+Выборка всех пользователей:
+```
+   SELECT * FROM users;
+```
