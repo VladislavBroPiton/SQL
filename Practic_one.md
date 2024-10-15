@@ -50,3 +50,5 @@ id | name |	email
 ```
    SELECT * FROM users;
 ```
+
+Обновление имени пользователя Ивана:
