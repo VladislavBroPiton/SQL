@@ -52,3 +52,6 @@ id | name |	email
 ```
 
 Обновление имени пользователя Ивана:
+```
+   UPDATE users SET name = 'Иванов' WHERE id = 1;
+```
