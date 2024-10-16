@@ -71,3 +71,7 @@ CREATE TABLE orders (
     FOREIGN KEY (user_id) REFERENCES users(id)
 );
 ```
+Эта таблица связывает заказы с пользователями, используя user_id как внешний ключ.
+
+Пример вставки данных в таблицу orders:
+```
