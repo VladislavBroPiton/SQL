@@ -55,3 +55,8 @@ id | name |	email
 ```
    UPDATE users SET name = 'Иванов' WHERE id = 1;
 ```
+
+Удаление пользователя Марии:
+```
+   DELETE FROM users WHERE id = 2;
+```
