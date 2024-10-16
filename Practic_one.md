@@ -64,3 +64,10 @@ id | name |	email
 ### 6. Объединение таблиц (JOIN)
 Представим, что у нас есть ещё одна таблица orders, содержащая информацию о заказах:
 ```
+CREATE TABLE orders (
+    order_id INT PRIMARY KEY,
+    user_id INT,
+    product VARCHAR(100),
+    FOREIGN KEY (user_id) REFERENCES users(id)
+);
+```
