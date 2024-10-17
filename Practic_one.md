@@ -79,3 +79,4 @@ INSERT INTO orders (order_id, user_id, product) VALUES (1, 1, 'Книга');
 INSERT INTO orders (order_id, user_id, product) VALUES (2, 1, 'Ноутбук');
 INSERT INTO orders (order_id, user_id, product) VALUES (3, 2, 'Телефон');
 ```
+
