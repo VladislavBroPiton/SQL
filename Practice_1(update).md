@@ -1,3 +1,4 @@
+Таблица **Users**
 id | name | email | status | 
 :--|--|--|--:
 | 1  | John Doe       | john.doe@example.com      | active   |
