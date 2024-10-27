@@ -8,3 +8,4 @@ id | name | email | status |
 | 5  | Charlie Black  | charlie.black@example.com | inactive 
 
 Таблица **product**
+id | name | price | quantity |
