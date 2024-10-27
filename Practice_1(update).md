@@ -36,3 +36,7 @@ id | name | price | quantity |
 В таблице products представлены все 20 записей с продуктами, их названиями, ценами и количеством на складе.  
 Описание:  
 Обновите количество товара Tablet до 20.  
+
+~~~
+update products SET quantity = 20 WHERE name = 'tablet';
+~~~
