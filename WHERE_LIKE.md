@@ -21,3 +21,9 @@ SELECT *
 FROM albums
 WHERE title ILIKE '%R%';
 ```
+Если нужно вывести только определённые столбцы (например, название и год выпуска), уточните запрос:  
+```
+SELECT title, release_year
+FROM albums
+WHERE title LIKE '%R%';
+```
